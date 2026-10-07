@@ -1,0 +1,43 @@
+{
+  "chainId": 1,
+  "poolKey": {
+    "fee": 12500,
+    "hooks": "0x784ff9a3ac5d88a30bfff6f7f2a270161fbe6000",
+    "currency0": "0x0000000000000000000000000000000000000000",
+    "currency1": "0xe7b5b05cfebb11d08033020acdeb89fe672b0855",
+    "tickSpacing": 60
+  },
+  "repoUrl": "https://github.com/identity-md-launches/launch-881-hsxwesxkaamsb0token",
+  "version": 1,
+  "launchId": "980fdec8-cbe6-44fd-af21-c0065221fa6b",
+  "manifest": {
+    "kind": "evm_project",
+    "pool": {
+      "fee": 3000,
+      "tickSpacing": 60,
+      "initialPrice": "79228162514264337593543950336",
+      "pairedCurrency": "0x0000000000000000000000000000000000000000"
+    },
+    "notes": "Token-only launch of src/LaunchToken.sol:LaunchToken. Its nonpayable, zero-argument constructor mints 1,000,000,000 HX with 18 decimals to the deploying factory. There are no owner powers, later minting, pause, upgrade, or transfer taxes, and no initialization calls or application contracts. The approved workflow requires Ethereum mainnet only and 88% of total supply for the native ETH launch pool, with the standard IMD distribution and trading fees; services must enforce these requirements through deployment configuration and pinned policy. These notes do not set policy or authorize deployment. The protocol factory supplies liquidity, MerkleDistributor, and the initialization-only pool guard. The fee field 3000 is the admission parameter; live trading fees come from the network configuration. initialPrice is decimal sqrtPriceX96 for legacy policies; the pinned policy determines the effective opening price. Source publication, signed artifact linkage, admission, deployment, and the IPFS frontend are subsequent service and workflow steps.",
+    "token": {
+      "name": "HS XWesXkAAMSB0",
+      "symbol": "HX",
+      "contract": "LaunchToken",
+      "decimals": 18
+    },
+    "contracts": []
+  },
+  "contracts": [
+    {
+      "name": "LaunchToken",
+      "txHash": "0xc7a96a2444c7e9cd0fae8a07172cbea09a6d46836f97b1d9929466688ac1ba0c",
+      "abiHash": "38880b8e56d42ce900f744a7908c7139632a49f1c3f33385c64ceaed29d37bee",
+      "address": "0xe7b5b05cfebb11d08033020acdeb89fe672b0855",
+      "blockNumber": 26138654,
+      "creationCodeHash": "10aa2979da6d151e78382a0860bb2d5fac81494bd43d901891ca69a3cdded80d"
+    }
+  ],
+  "sourceCommit": "8be0125e72fa2c986b86dade95dabdbf7a8a8485",
+  "abiInstructions": "Build ABIs from this exact source commit; compare canonicalKeccak(abi) with abiHash. Verify deployed code on the stated chain before enabling transactions.",
+  "attestationHash": "a7f671871ca417e0fd836f8e930eb71996d5d17ee7e46ea03984877cffd453bb"
+}

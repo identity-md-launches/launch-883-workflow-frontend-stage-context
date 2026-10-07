@@ -1,0 +1,164 @@
+{
+  "date": "2026-10-07T06:32:29.501Z",
+  "kind": "Read-only public RPC validation. No transaction sent.",
+  "endpoints": [
+    {
+      "url": "https://ethereum-rpc.publicnode.com",
+      "chainId": 1,
+      "block": "26138738",
+      "code": [
+        {
+          "name": "LaunchToken",
+          "address": "0xe7b5b05cfebb11d08033020acdeb89fe672b0855",
+          "bytes": 1785
+        },
+        {
+          "name": "poolManager",
+          "address": "0x000000000004444c5dc75cb358380d2e3de08a90",
+          "bytes": 24009
+        },
+        {
+          "name": "universalRouter",
+          "address": "0x66a9893cc07d91d95644aedd05d03f95e1dba8af",
+          "bytes": 19499
+        },
+        {
+          "name": "quoter",
+          "address": "0x52f0e24d1c21c8a0cb1e5a5dd6198556bd9e1203",
+          "bytes": 5820
+        },
+        {
+          "name": "stateView",
+          "address": "0x7ffe42c4a5deea5b0fec41c94c136cf115597227",
+          "bytes": 3531
+        },
+        {
+          "name": "positionManager",
+          "address": "0xbd216513d74c8cf14cf4747e6aaa6420ff64ee9e",
+          "bytes": 23877
+        },
+        {
+          "name": "permit2",
+          "address": "0x000000000022d473030f116ddee9f6b43ac78ba3",
+          "bytes": 9152
+        },
+        {
+          "name": "poolHook",
+          "address": "0x784ff9a3ac5d88a30bfff6f7f2a270161fbe6000",
+          "bytes": 488
+        }
+      ],
+      "token": {
+        "name": "HS XWesXkAAMSB0",
+        "symbol": "HX",
+        "decimals": "18",
+        "totalSupply": "1000000000000000000000000000"
+      },
+      "pool": {
+        "id": "0x711c69baa153949a70e2b9f2724b04d2cc08cee1c9f360bedc6a6fad27e744e4",
+        "slot0": [
+          "792281625142643375935439503360000",
+          "184216",
+          "0",
+          "12500"
+        ],
+        "liquidity": "0"
+      },
+      "quotes": [
+        {
+          "direction": "ETH to HX",
+          "inputBaseUnits": "100000000000000",
+          "outputBaseUnits": "9859085587022901712057",
+          "gasEstimate": "87398",
+          "success": true
+        },
+        {
+          "direction": "HX to ETH",
+          "inputBaseUnits": "100000000000000000000",
+          "success": false,
+          "error": "The contract function \"quoteExactInputSingle\" reverted."
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://eth.drpc.org",
+      "chainId": 1,
+      "block": "26138738",
+      "code": [
+        {
+          "name": "LaunchToken",
+          "address": "0xe7b5b05cfebb11d08033020acdeb89fe672b0855",
+          "bytes": 1785
+        },
+        {
+          "name": "poolManager",
+          "address": "0x000000000004444c5dc75cb358380d2e3de08a90",
+          "bytes": 24009
+        },
+        {
+          "name": "universalRouter",
+          "address": "0x66a9893cc07d91d95644aedd05d03f95e1dba8af",
+          "bytes": 19499
+        },
+        {
+          "name": "quoter",
+          "address": "0x52f0e24d1c21c8a0cb1e5a5dd6198556bd9e1203",
+          "bytes": 5820
+        },
+        {
+          "name": "stateView",
+          "address": "0x7ffe42c4a5deea5b0fec41c94c136cf115597227",
+          "bytes": 3531
+        },
+        {
+          "name": "positionManager",
+          "address": "0xbd216513d74c8cf14cf4747e6aaa6420ff64ee9e",
+          "bytes": 23877
+        },
+        {
+          "name": "permit2",
+          "address": "0x000000000022d473030f116ddee9f6b43ac78ba3",
+          "bytes": 9152
+        },
+        {
+          "name": "poolHook",
+          "address": "0x784ff9a3ac5d88a30bfff6f7f2a270161fbe6000",
+          "bytes": 488
+        }
+      ],
+      "token": {
+        "name": "HS XWesXkAAMSB0",
+        "symbol": "HX",
+        "decimals": "18",
+        "totalSupply": "1000000000000000000000000000"
+      },
+      "pool": {
+        "id": "0x711c69baa153949a70e2b9f2724b04d2cc08cee1c9f360bedc6a6fad27e744e4",
+        "slot0": [
+          "792281625142643375935439503360000",
+          "184216",
+          "0",
+          "12500"
+        ],
+        "liquidity": "0"
+      },
+      "quotes": [
+        {
+          "direction": "ETH to HX",
+          "inputBaseUnits": "100000000000000",
+          "outputBaseUnits": "9859085587022901712057",
+          "gasEstimate": "87398",
+          "success": true
+        },
+        {
+          "direction": "HX to ETH",
+          "inputBaseUnits": "100000000000000000000",
+          "success": false,
+          "error": "The contract function \"quoteExactInputSingle\" reverted."
+        }
+      ],
+      "success": true
+    }
+  ]
+}

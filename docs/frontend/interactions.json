@@ -1,0 +1,80 @@
+{
+  "date": "2026-10-07T06:35:54.636Z",
+  "mode": "Production export, mocked wallet and RPC; no broadcast",
+  "results": [
+    {
+      "name": "Static subpath, missing wallet, keyboard focus, paused motion and responsive layouts",
+      "status": "passed"
+    },
+    {
+      "name": "Wallet rejection is recoverable",
+      "status": "passed"
+    },
+    {
+      "name": "Wrong-chain action, unknown-chain add then switch, live balances",
+      "status": "passed"
+    },
+    {
+      "name": "Native buy quote and simulated router swap, exact pool key, minimum, commands, value",
+      "status": "passed"
+    },
+    {
+      "name": "Token sale requires two exact approvals, mined receipts, then zero-value swap",
+      "status": "passed"
+    },
+    {
+      "name": "Sufficient fresh allowances skip approvals",
+      "status": "passed"
+    },
+    {
+      "name": "Invalid amounts/slippage, quote error, field edit invalidates quote",
+      "status": "passed"
+    },
+    {
+      "name": "Quote expiry blocks execution",
+      "status": "passed"
+    },
+    {
+      "name": "Simulation failure prevents wallet send; rejection unlocks action",
+      "status": "passed"
+    },
+    {
+      "name": "Pending receipt disables actions and guards duplicate transactions",
+      "status": "passed"
+    },
+    {
+      "name": "Account/network changes invalidate wallet and quote",
+      "status": "passed"
+    },
+    {
+      "name": "Token transfer, approval revoke, allowance read and delegated transfer",
+      "status": "passed"
+    },
+    {
+      "name": "Missing code and unavailable pool fail closed",
+      "status": "passed"
+    },
+    {
+      "name": "Zero active liquidity at an initialized boundary still allows quotes",
+      "status": "passed"
+    },
+    {
+      "name": "Tampered ABI and wrong RPC chain disable writes",
+      "status": "passed"
+    },
+    {
+      "name": "Reverted receipt is reported as failure",
+      "status": "passed"
+    },
+    {
+      "name": "Connected quote and expanded tools reflow and accessibility",
+      "status": "passed"
+    },
+    {
+      "name": "Axe scan and rendered token contrast",
+      "status": "passed"
+    }
+  ],
+  "consoleErrors": [],
+  "resourceErrors": []
+}

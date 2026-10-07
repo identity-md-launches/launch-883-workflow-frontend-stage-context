@@ -1,0 +1,32 @@
+[
+  {
+    "selector": "body",
+    "foreground": "rgb(244, 243, 233)",
+    "background": "rgb(16, 25, 22)",
+    "ratio": 16.06888651260738
+  },
+  {
+    "selector": ".intro",
+    "foreground": "rgb(192, 200, 188)",
+    "background": "rgb(16, 25, 22)",
+    "ratio": 10.428489201692127
+  },
+  {
+    "selector": ".primary",
+    "foreground": "rgb(16, 25, 22)",
+    "background": "rgb(212, 243, 160)",
+    "ratio": 14.605358355656445
+  },
+  {
+    "selector": ".badge",
+    "foreground": "rgb(192, 200, 188)",
+    "background": "rgb(24, 35, 30)",
+    "ratio": 9.421563142465159
+  },
+  {
+    "selector": ".amount-box>label",
+    "foreground": "rgb(192, 200, 188)",
+    "background": "rgb(36, 49, 40)",
+    "ratio": 7.915429691788726
+  }
+]

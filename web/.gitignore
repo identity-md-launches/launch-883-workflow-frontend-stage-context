@@ -1,0 +1,6 @@
+# Explicit assignment path budget: web/.gitignore only.
+**/node_modules/
+**/.cache/
+**/.npm/
+**/test-results/
+**/playwright-report/
